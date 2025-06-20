@@ -24,28 +24,24 @@ Saves the trained model to disk (digit_model.pkl) using pickle.
 
 🚀 Getting Started
 1. Clone the repository
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/DigitRecognition.git
 cd DigitRecognition
+
 2. Create and activate a virtual environment (optional but recommended)
-bash
-Copy
-Edit
+
 python -m venv .venv
 .venv\Scripts\activate    # On Windows
 source .venv/bin/activate  # On macOS/Linux
+
 3. Install dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
+
 4. Run the script
-bash
-Copy
-Edit
+
 python handwritten_digit_recognition.py
+
 The model will be trained, evaluated, and saved as digit_model.pkl.
 
 📦 Dependencies
@@ -59,9 +55,9 @@ matplotlib
 
 opencv-python
 
-tensorflow (not used in current script, possibly for future extension)
+tensorflow (not used in current script, but is intended for future extension)
 
-pytesseract (not used in current script, possibly for OCR features)
+pytesseract (not used in current script, but is intended for OCR features)
 
 📄 Output Example
 Confusion Matrix
